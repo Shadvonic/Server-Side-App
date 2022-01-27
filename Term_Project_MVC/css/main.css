@@ -1,0 +1,87 @@
+html {
+    background-color: rgb(192, 192, 192);
+    min-width: 550px;
+  position: relative;
+} 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 2em;
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+td, th {
+    border: 1px dashed black;
+    padding: .2em .5em .2em .5em;
+    text-align: left;
+    
+}
+
+th {
+  color: red;
+}
+
+td {
+  color: black;
+}
+
+h1 {
+    font-size: 150%;
+    margin: .5em 0;
+}
+h2 {
+    font-size: 120%;
+    margin: .25em 0 .5em;
+}
+h1, h2 {
+    color: rgb(208, 133, 4);
+}
+
+h3, h5 {
+  color: black;
+}
+
+
+
+hr.line{
+  border: .2px solid black;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  overflow:scroll;
+ }
+
+.left {
+  width: 15%;
+}
+
+.middle {
+  width: 60%;
+}
+
+.right {
+    float: left;
+    width: 15%;
+   
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
